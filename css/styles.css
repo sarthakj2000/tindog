@@ -1,0 +1,168 @@
+#title{
+  background-color:#ff4c68;
+  color: white;
+
+}
+h1{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
+
+}
+.yes{
+  color:#BfBfBf;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+}
+.part1{
+  padding:3% 15% 100px 15%;
+}
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.part2{
+  margin:0 0 10% 10%;
+  font-size: 15px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  top:0;
+
+  bottom:152px;
+  height: 260px;
+  padding-top: 50px;
+  height: 500px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  padding: 0 0 2.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.no{
+  margin-bottom: 16px;
+  color: #ef8172;
+}
+.no:hover{
+  color:#ff4c68;
+}
+.ok{
+  margin-bottom: 30px
+}
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+
+}
+.carousel-item{
+  padding:7% 15%;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+.row{
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  top:100px;
+}
+#pricing{
+  padding: 200px;
+  text-align: center;
+  background-color: white;
+
+}
+
+#features{
+  margin-bottom: 200px;
+}
+#cta{
+  background-color: #ff4c68;
+  height: 300px;
+  text-align: center;
+  color:white;
+  padding-top: 50px;
+
+}
+.hello{
+  font-family: 'Lilita One', cursive;
+  font-size: 3rem;
+  text-align:center;
+  width: 700px;
+  margin: auto;
+}
+#footer{
+  height: 200px;
+  background-color: white;
+}
+@media (max-width:1532px) {
+  .part2{
+    position:static; }
+  .row{
+    position: static;
+  }
+}
+@media (max-width:992px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  #pricing{
+    width: 100%;
+  }
+}
+.mobile{
+  height: 500px;
+}
+#footer{
+  text-align: center;
+  padding-top: 30px;
+
+}
+.last{
+  color:#BfBfBf;
+}
+.icons{
+  margin: 5px;
+}
